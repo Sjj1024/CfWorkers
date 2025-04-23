@@ -1,16 +1,16 @@
 {
-  "compatibility_date": "2024-11-01",
-  "main": "src/index.ts",
-  "name": "worker-databasecf",
-  "upload_source_maps": true,
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_id": "a188f45e-ffa0-4338-bb52-2772e3e2689e",
-      "database_name": "initdatabase"
+    "compatibility_date": "2024-11-01",
+    "main": "src/index.ts",
+    "name": "worker-databasecf",
+    "upload_source_maps": true,
+    "d1_databases": [
+        {
+            "binding": "DB",
+            "database_id": "a188f45e-ffa0-4338-bb52-2772e3e2689e",
+            "database_name": "initdatabase"
+        }
+    ],
+    "observability": {
+        "enabled": true
     }
-  ],
-  "observability": {
-    "enabled": true
-  }
 }

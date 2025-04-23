@@ -39,19 +39,19 @@ A live public deployment of this template is available at [https://worker-databa
 ## Setup Steps
 
 1. Install the project dependencies with a package manager of your choice:
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 2. Create a [D1 database](https://developers.cloudflare.com/d1/get-started/) with the name "initdatabase":
-   ```bash
-   npx wrangler d1 create initdatabase
-   ```
-   ...and update the `database_id` field in `wrangler.json` with the new database ID.
+    ```bash
+    npx wrangler d1 create initdatabase
+    ```
+    ...and update the `database_id` field in `wrangler.json` with the new database ID.
 3. Run the following db migration to initialize the database (notice the `migrations` directory in this project):
-   ```bash
-   npx wrangler d1 migrations apply --remote initdatabase
-   ```
+    ```bash
+    npx wrangler d1 migrations apply --remote initdatabase
+    ```
 4. Deploy the project!
-   ```bash
-   npx wrangler deploy
-   ```
+    ```bash
+    npx wrangler deploy
+    ```
