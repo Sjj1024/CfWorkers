@@ -120,7 +120,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/Users/song/Project/my/cfworker/src/generated/prisma",
+      "value": "/Users/song/project/others/cfworker/src/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -136,12 +136,11 @@ const config = {
     "previewFeatures": [
       "driverAdapters"
     ],
-    "sourceFilePath": "/Users/song/Project/my/cfworker/prisma/schema.prisma",
+    "sourceFilePath": "/Users/song/project/others/cfworker/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "../../../prisma",
   "clientVersion": "6.7.0",
