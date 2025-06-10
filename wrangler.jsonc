@@ -25,8 +25,8 @@
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "prisma-demo-db",
-			"database_id": "811ec32d-3d95-436f-98e3-4e383bc53d16"
+			"database_name": "prod-d1-tutorial",
+			"database_id": "741734a9-f4d1-47c6-9091-80e0ffb13e29"
 		}
 	]
 
