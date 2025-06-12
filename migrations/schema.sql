@@ -1,21 +1,23 @@
 -- CreateTable
-CREATE TABLE "User" (
+CREATE TABLE IF NOT EXISTS "User" (
     "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     "email" TEXT NOT NULL,
     "name" TEXT
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
+CREATE UNIQUE INDEX IF NOT EXISTS "User_email_key" ON "User"("email");
 
+-- CreateTable
 DROP TABLE IF EXISTS Customers;
 
 CREATE TABLE IF NOT EXISTS Customers (
     CustomerId INTEGER PRIMARY KEY,
     CompanyName TEXT,
-    ContactName TEXT
+    ContactName TEXT,
+    Country TEXT DEFAULT 'China'
 );
-
+-- Insert some sample data
 INSERT INTO
     Customers (CustomerID, CompanyName, ContactName)
 VALUES
